@@ -1,4 +1,4 @@
-var argscheck = require('cordova/argscheck'),
+var argscheck = require('cordova/argscheck');
 // var exec = require('cordova/exec');
 
 var touchid = {
