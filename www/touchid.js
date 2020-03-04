@@ -1,7 +1,4 @@
-var argscheck = require('cordova/argscheck');
-// var exec = require('cordova/exec');
-
-var touchid = {
+window.touchid = {
 	isAvailable: function (successCallback, errorCallback) {
 		cordova.exec(successCallback, errorCallback, "TouchID", "isAvailable", []);
 	},
