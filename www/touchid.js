@@ -18,3 +18,5 @@ var touchid = {
 		cordova.exec(successCallback, errorCallback, "TouchID", "setLocale", [locale]);
 	}
 };
+
+module.exports = touchid;
